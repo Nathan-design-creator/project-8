@@ -1,0 +1,42 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.image_section {
+    width: 100%;
+    height: 335px;
+    background-color: lightblue;
+    background-image: url(football.jpg.png);
+    text-align: center;
+    text-shadow: 1px 7px 8px blue;
+    color: white;
+}
+
+.gradient_section {
+    width: 100%;
+    height: 250px;
+    background-color: rgb(161, 195, 206);
+    text-align: center;
+    background-image: linear-gradient(to right, blue, lightblue, blue);
+}
+
+.animation_section {
+    width: 100%;
+    height: 250px;
+    background-color: rgb(122, 122, 245);
+    animation: contactanimation 10s infinite;
+}
+
+@keyframes contactanimation {
+    0% {
+        background-color: cornflowerblue;
+    }
+
+    50% {
+        background-color: lightblue;
+    }
+
+    100% {
+        background-color: aqua;
+    }
+}
